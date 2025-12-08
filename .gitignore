@@ -1,0 +1,10 @@
+# VCD waveform files
+*.vcd
+
+# VVP compiled files
+*.vvp
+
+# ignore files matching *_behavioral, *_dataflow, *_gate (no extension)
+*_behavioral
+*_dataflow
+*_gate

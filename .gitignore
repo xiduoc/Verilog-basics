@@ -1,10 +1,8 @@
-# VCD waveform files
-*.vcd
+# Ignore everything
+*
 
-# VVP compiled files
-*.vvp
+# Only track Verilog files
+!*.v
 
-# ignore files matching *_behavioral, *_dataflow, *_gate (no extension)
-*_behavioral
-*_dataflow
-*_gate
+# Keep .gitignore
+!.gitignore

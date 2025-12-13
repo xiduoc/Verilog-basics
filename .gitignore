@@ -1,6 +1,9 @@
 # Ignore everything
 *
 
+# Exclude directories
+!*/
+
 # Only track Verilog files
 !*.v
 

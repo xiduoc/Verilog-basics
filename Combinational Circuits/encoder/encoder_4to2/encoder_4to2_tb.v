@@ -6,10 +6,10 @@ module encoder_4to2_tb;
     wire [1:0] y;
     wire valid;
     
-    //encoder_4to2_behavioral    duut1 (.d(d), .y(y), .valid(valid));
-    //encoder_4to2_behavioral_v2 duut2 (.d(d), .y(y), .valid(valid));
-    //encoder_4to2_dataflow      duut3 (.d(d), .y(y), .valid(valid));
-    encoder_4to2_gate          duut4 (.d(d), .y(y), .valid(valid)); 
+    //encoder_4to2_behavioral    dut1 (.d(d), .y(y), .valid(valid));
+    //encoder_4to2_behavioral_v2 dut2 (.d(d), .y(y), .valid(valid));
+    //encoder_4to2_dataflow      dut3 (.d(d), .y(y), .valid(valid));
+    encoder_4to2_gate          dut4 (.d(d), .y(y), .valid(valid)); 
 
     // Expected outputs
     reg [1:0] y_exp;

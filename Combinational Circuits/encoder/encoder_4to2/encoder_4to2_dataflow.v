@@ -4,8 +4,9 @@ module encoder_4to2_dataflow (
     output valid
 );
 
+    assign valid = |d;
+
     assign y[1] = d[3] | d[2];
     assign y[0] = d[3] | (d[1] & ~d[2]);
-    assign valid = |d;
 
 endmodule

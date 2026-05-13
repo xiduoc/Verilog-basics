@@ -9,3 +9,8 @@
 
 # Keep .gitignore
 !.gitignore
+
+!*.sv
+!*.svh
+!Makefile
+!*.md
